@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-image: url("images/bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+body {
+  background-color: #ddd;
+  font-size: 14px;
+  font-family:YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+
+/*GV*/
+
+ nav ul li a.selected{
+  color:#000;
+ }
+ 
+ nav ul li a {
+  padding: 15px 10;
+  text-decoration: none;
+  color: #999;
+  font-weight: bold;
+}
+ 
+nav ul li{
+  margin: 0 20px;
+  display: inline-block;
+}
+
+nav ul {
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav{
+  margin: 0 0 30px 0;
+  padding: 10px 0;
+  text-align: center;
+  background: #fff;
+}
+/*GV done*/
+/*Profile*/
+#logo{
+  padding: 20px 0;
+  text-align: center;
+}
+
+#logo img{
+  max-width: 120px;
+  border: 5px solid #fff;
+  border-radius: 100%;
+}
+
+#logo h1{
+  letter-spacing: 0.15em;
+  color: #fff;
+  text-shadow: 1px 1px 0px #000;
+}
+/*Profile done*/
+/*Container*/
+.container {
+  max-width: 800px;
+  margin: -100px auto 0;
+  background-color: #fff;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+section h2{
+  padding: 10px 0 20px 0;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+/*Container done*/
+/*Profile deco*/
+span.red{
+  color: red;
+}
+
+/*Profile deco done*/
+/*Footer*/
+footer{
+  padding: 20px 0;
+  font-size: 93%;
+  text-align: center;
+  background-color: #ccc;
+  color: #666;
+}
+/*Footer done*/
